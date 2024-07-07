@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom, #f0f0f0, #00def3);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #b47171;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#job-form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#job-form input[type="text"], #job-form input[type="email"], #job-form input[type="tel"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    box-sizing: border-box;
+
+}
+
+#job-form input[type="file"] {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#job-form input[type="submit"] {
+    background-color: #1047a784;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#job-form input[type="submit"]:hover {
+    background-color: #22ff00;
+}
